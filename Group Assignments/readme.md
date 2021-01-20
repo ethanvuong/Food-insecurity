@@ -1,6 +1,6 @@
 # DGT HUM 140 Group Project : Food Insecurity
 ### Research Question
-Are there certain states that would benefit for more advocacy of the SNAP program? Why is it that these states have a lower number of SNAP households despite their need of SNAP?
+Are there certain states that could better utilize the SNAP program? Why is it that these states have a lower number of SNAP households despite their need of SNAP?
 
 ### Why is it important?
 According to Feeding America, 1 in 9 people in the United States struggle with hunger. This widespread stuggle with food insecurity is something that often goes unnoticed in modern society, and the Coronavirus Pandemic has made this issue even more widespread. We both work for the CalFresh Initiative at UCLA where we frequently interact with students who experience food insecurty first-hand. Having gained various perspectives about how food insecurity affects people from all backgrounds, this project will help to shed light to which communities and where in the U.S. food insecurity is most present. Without more awareness, more people will suffer with food insecurity and it will undermine the tragic struggles that many individuals and families are faced with. 
