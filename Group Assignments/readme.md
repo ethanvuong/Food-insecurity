@@ -1,6 +1,7 @@
 # DGT HUM 140 Group Project : Food Insecurity
 ### Research Question
-Are there certain states that could better utilize the SNAP program? Why is it that these states have a lower number of SNAP households despite their need of SNAP?
+Are there certain states that could better utilize the SNAP program? Why is it that these states have a lower utilization of the SNAP program despite how many could benefit from it?
+
 
 ### Why is it important?
 According to Feeding America, 1 in 9 people in the United States struggle with hunger. This widespread stuggle with food insecurity is something that often goes unnoticed in modern society, and the Coronavirus Pandemic has made this issue even more widespread. We both work for the CalFresh Initiative at UCLA where we frequently interact with students who experience food insecurty first-hand. Having gained various perspectives about how food insecurity affects people from all backgrounds, this project will help to shed light to which communities and where in the U.S. food insecurity is most present. Without more awareness, more people will suffer with food insecurity and it will undermine the tragic struggles that many individuals and families are faced with. 
@@ -15,8 +16,8 @@ SNAP is a program that is implemented throughout the entire United States. While
     * This dataset provides compiled information about the stores that accept SNAP benefits. From store name, to zip code, to longitude and latitude, this dataset contains many different geographical variables that we can filter by. 
 
 ### Intended Analysis and Visualizations
-Using these datasets, we want to see which states have a higher percentage of people under a certain poverty line. Additionally, we also want to see which states have a higher or lower use of the SNAP program. We hope to compare the two ideas and find out which states may benefit from a more widespread promotion of SNAP. If we have the time, we want to explore the reasons of why these states have a lower number of SNAP households despite the need, comparing it to a state that has a high percentage of people under a certain poverty line but also has a high percentage of SNAP households.
-Some visualizations we imagine we will produce are map visualizations that indicate lower and higher percentages of people under a certain poverty line and use of the SNAP program. 
+Using these datasets, we want to see which states have a higher percentage of people under a certain poverty line. Additionally, we also want to see which states have a higher or lower use of the SNAP program. We hope to compare the two ideas and find out which states may benefit from a more widespread promotion of SNAP. If we have the time, we want to explore the reasons of why these states have a lower number of SNAP households the large population in the state that could benefit from the program, comparing it to a state that has a high percentage of people under a certain poverty line but also has a high percentage of SNAP households. Some ideas of things to compare include demographics, number of SNAP store locations, and demographics. 
+Some visualizations we imagine we will produce are map visualizations that indicate lower and higher percentages of people under a certain poverty line and use of the SNAP program. Following that, if we were to explore the reasons for lower utilization of SNAP, we can produce bar graphs to show comparison between the two states.
 
 ### Insights we expect to gain
 blah blah
