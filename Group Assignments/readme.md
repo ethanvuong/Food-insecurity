@@ -15,7 +15,7 @@ SNAP is a program that is implemented throughout the entire United States. While
     * This dataset provides compiled information about the stores that accept SNAP benefits. From store name, to zip code, to longitude and latitude, this dataset contains many different geographical variables that we can filter by. 
 
 ### Intended Analysis and Visualizations
-Using these datasets, we want to see which states have a higher percentage of people under a certain poverty line. Additionally, we also want ot see which states have a higher or lower use of the SNAP program. We hope to compare the two ideas and find out which states may benefit from a more widespread promotion of SNAP and possibly explore the reasons of why these states have a lower number of SNAP users despite the need. 
+Using these datasets, we want to see which states have a higher percentage of people under a certain poverty line. Additionally, we also want to see which states have a higher or lower use of the SNAP program. We hope to compare the two ideas and find out which states may benefit from a more widespread promotion of SNAP. If we have the time, we want to explore the reasons of why these states have a lower number of SNAP households despite the need, comparing it to a state that has a high percentage of people under a certain poverty line but also has a high percentage of SNAP households.
 Some visualizations we imagine we will produce are map visualizations that indicate lower and higher percentages of people under a certain poverty line and use of the SNAP program. 
 
 ### Insights we expect to gain
