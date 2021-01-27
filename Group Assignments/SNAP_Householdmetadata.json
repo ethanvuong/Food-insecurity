@@ -1,0 +1,44 @@
+{
+    "release": {
+        "id": "acs2019_5yr",
+        "name": "ACS 2019 5-year",
+        "years": "2015-2019"
+    },
+    "tables": {
+        "B22003": {
+            "columns": {
+                "B22003001": {
+                    "indent": 0,
+                    "name": "Total:"
+                },
+                "B22003002": {
+                    "indent": 1,
+                    "name": "Household received Food Stamps/SNAP in the past 12 months:"
+                },
+                "B22003003": {
+                    "indent": 2,
+                    "name": "Income in the past 12 months below poverty level"
+                },
+                "B22003004": {
+                    "indent": 2,
+                    "name": "Income in the past 12 months at or above poverty level"
+                },
+                "B22003005": {
+                    "indent": 1,
+                    "name": "Household did not receive Food Stamps/SNAP in the past 12 months:"
+                },
+                "B22003006": {
+                    "indent": 2,
+                    "name": "Income in the past 12 months below poverty level"
+                },
+                "B22003007": {
+                    "indent": 2,
+                    "name": "Income in the past 12 months at or above poverty level"
+                }
+            },
+            "denominator_column_id": "B22003001",
+            "title": "Receipt of Food Stamps/SNAP in the Past 12 Months by Poverty Status in the Past 12 Months for Households",
+            "universe": "Households"
+        }
+    }
+}
