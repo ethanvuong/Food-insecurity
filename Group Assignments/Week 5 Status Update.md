@@ -18,10 +18,10 @@ We are also using Census Data that depicts the poverty levels of each state. By 
 
 
 ## Concerns:
-###Major Concerns:
+### Major Concerns:
 The Census data collection process seems like it may be more difficult than expected because it wouldn't let me download large sets of data, even when separating into states. We would either have to find a way to compile the data for our use or narrow the scope of our project.
 
-###Minor Concerns:
+### Minor Concerns:
 * We are unclear or unsure if the result we get will be significant enough to make an arguable claim about SNAP in the U.S.
 * We are unsure if citizenship status reported by the census is accurate, as some may be afraid of forced deportation, choosing not to respond.
 * Would the frequent changes to government policy regarding federal aid greatly affect the accuracy of this project?
