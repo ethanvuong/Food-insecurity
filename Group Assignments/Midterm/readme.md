@@ -42,6 +42,5 @@ Using the US Census data, we were able to create a map that depicts the status o
 Using the US Census data, we were able to create a bar chart for New Mexico and Wyoming, the states with the most and least enrollment in SNAP, comparing the population level of each race/ethnicity in the state. This allows us to understand how race impacts SNAP enrollment. 
 
 ### Insights we expect to gain
-From this data analysis project, some insights we expect to gain are the effects of the food insecurity and SNAP benefits have on those who live in low income households. It will also provide insight as to which states have successful advocacy and implementation policies that help to mitigate the widespread struggle of food insecurity. Looking at the states with higher usage of SNAP, we will be able to determine what demographic categories demonstrate the most need and how states distribute accessibility. The maps will help to visually see which parts of the country use SNAP the most.
-
+From this data analysis project, we expect to gain insight on how SNAP on a national level. Because we've only worked with the LA county on helping students enroll in CalFresh, we wanted to see if the impact of SNAP was the same across the US. By discovering the varying levels of SNAP usage across states and looking at the correlation of SNAP and other factors, we can see who benefits and how they benefit from SNAP. Therefore, we will also be able to see the importance of SNAP to certain communities. 
 
