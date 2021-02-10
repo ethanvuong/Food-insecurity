@@ -41,8 +41,6 @@ Using the US Census data, we were able to create a map that depicts the status o
 
 Using the US Census data, we were able to create a bar chart for New Mexico and Wyoming, the states with the most and least enrollment in SNAP, comparing the population level of each race/ethnicity in the state. This allows us to understand how race impacts SNAP enrollment. 
 
-If we have the time, we want to explore the reasons of why these states have a lower number of SNAP households the large population in the state that could benefit from the program, comparing it to a state that has a high percentage of people under a certain poverty line but also has a high percentage of SNAP households. Some ideas of things to compare include demographics, number of SNAP store locations, and demographics. Some visualizations we imagine we will produce are map visualizations that indicate lower and higher percentages of people under a certain poverty line and use of the SNAP program. Following that, if we were to explore the reasons for lower utilization of SNAP, we can produce bar graphs to show comparison between the two states.
-
 ### Insights we expect to gain
 From this data analysis project, some insights we expect to gain are the effects of the food insecurity and SNAP benefits have on those who live in low income households. It will also provide insight as to which states have successful advocacy and implementation policies that help to mitigate the widespread struggle of food insecurity. Looking at the states with higher usage of SNAP, we will be able to determine what demographic categories demonstrate the most need and how states distribute accessibility. The maps will help to visually see which parts of the country use SNAP the most.
 
