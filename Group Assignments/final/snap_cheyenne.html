@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_253e137fb615416aac20c924f47ad446 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_253e137fb615416aac20c924f47ad446" ></div>
+        
+</body>
+<script>    
+    
+            var map_253e137fb615416aac20c924f47ad446 = L.map(
+                "map_253e137fb615416aac20c924f47ad446",
+                {
+                    center: [41.141058439999995, -104.79793200000003],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_50a40f4ac2ce456ca7d9ef2f706c15e6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+            var marker_21fe86f715a343538ee25852d6b9b48b = L.marker(
+                [41.134495, -104.82623000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_e2fd72b4fa2842bfa090bfea75ddb8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ef1e93829684655ac65506b0a9d27a2 = $(`<div id="html_1ef1e93829684655ac65506b0a9d27a2" style="width: 100.0%; height: 100.0%;">Snyder Food & Gas Inc</div>`)[0];
+            popup_e2fd72b4fa2842bfa090bfea75ddb8b5.setContent(html_1ef1e93829684655ac65506b0a9d27a2);
+        
+
+        marker_21fe86f715a343538ee25852d6b9b48b.bindPopup(popup_e2fd72b4fa2842bfa090bfea75ddb8b5)
+        ;
+
+        
+    
+    
+            marker_21fe86f715a343538ee25852d6b9b48b.bindTooltip(
+                `<div>
+                     Snyder Food & Gas Inc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76d7b7e32987425f9b4a8b00ccc0eef4 = L.marker(
+                [41.153316, -104.83415],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_e361ef64e6cb4fd19d84192931cb2a68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77bb6f0f5bb44f2bbebb6073bdd189fc = $(`<div id="html_77bb6f0f5bb44f2bbebb6073bdd189fc" style="width: 100.0%; height: 100.0%;">Community Action of Laramie County</div>`)[0];
+            popup_e361ef64e6cb4fd19d84192931cb2a68.setContent(html_77bb6f0f5bb44f2bbebb6073bdd189fc);
+        
+
+        marker_76d7b7e32987425f9b4a8b00ccc0eef4.bindPopup(popup_e361ef64e6cb4fd19d84192931cb2a68)
+        ;
+
+        
+    
+    
+            marker_76d7b7e32987425f9b4a8b00ccc0eef4.bindTooltip(
+                `<div>
+                     Community Action of Laramie County
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23d9074e11d34f3481b0cee6189109b4 = L.marker(
+                [41.117496, -104.80411],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_a81d88ddf7b14440a9d5414240134108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b833284856f42ec8ee3784d745b7739 = $(`<div id="html_1b833284856f42ec8ee3784d745b7739" style="width: 100.0%; height: 100.0%;">Big D Oil 29</div>`)[0];
+            popup_a81d88ddf7b14440a9d5414240134108.setContent(html_1b833284856f42ec8ee3784d745b7739);
+        
+
+        marker_23d9074e11d34f3481b0cee6189109b4.bindPopup(popup_a81d88ddf7b14440a9d5414240134108)
+        ;
+
+        
+    
+    
+            marker_23d9074e11d34f3481b0cee6189109b4.bindTooltip(
+                `<div>
+                     Big D Oil 29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bc88cf0bcd74e60a207a436030b7191 = L.marker(
+                [41.157146000000004, -104.66026],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_0e39e04e28144035895237e58c2ff21d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ee74792a498428581639725d51a5f49 = $(`<div id="html_2ee74792a498428581639725d51a5f49" style="width: 100.0%; height: 100.0%;">Sapp Bros Travel Center</div>`)[0];
+            popup_0e39e04e28144035895237e58c2ff21d.setContent(html_2ee74792a498428581639725d51a5f49);
+        
+
+        marker_7bc88cf0bcd74e60a207a436030b7191.bindPopup(popup_0e39e04e28144035895237e58c2ff21d)
+        ;
+
+        
+    
+    
+            marker_7bc88cf0bcd74e60a207a436030b7191.bindTooltip(
+                `<div>
+                     Sapp Bros Travel Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3292ff3ef95440339424e6da33e3ff0f = L.marker(
+                [41.160069, -104.76383],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_01c93df7617541088e48af4e3652864f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_581bb0b4da914ff096cb303541c7f4de = $(`<div id="html_581bb0b4da914ff096cb303541c7f4de" style="width: 100.0%; height: 100.0%;">King Soopers 79</div>`)[0];
+            popup_01c93df7617541088e48af4e3652864f.setContent(html_581bb0b4da914ff096cb303541c7f4de);
+        
+
+        marker_3292ff3ef95440339424e6da33e3ff0f.bindPopup(popup_01c93df7617541088e48af4e3652864f)
+        ;
+
+        
+    
+    
+            marker_3292ff3ef95440339424e6da33e3ff0f.bindTooltip(
+                `<div>
+                     King Soopers 79
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd9d967c7d6845d685fecd67b82770c4 = L.marker(
+                [41.164089000000004, -104.82266],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_a8b1df17fe0f4d43850d69bc325879e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3eedae489d84522b4c09fb061a3ce8e = $(`<div id="html_f3eedae489d84522b4c09fb061a3ce8e" style="width: 100.0%; height: 100.0%;">Crystals One Stop Inc</div>`)[0];
+            popup_a8b1df17fe0f4d43850d69bc325879e8.setContent(html_f3eedae489d84522b4c09fb061a3ce8e);
+        
+
+        marker_dd9d967c7d6845d685fecd67b82770c4.bindPopup(popup_a8b1df17fe0f4d43850d69bc325879e8)
+        ;
+
+        
+    
+    
+            marker_dd9d967c7d6845d685fecd67b82770c4.bindTooltip(
+                `<div>
+                     Crystals One Stop Inc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_937a3fd105be45db8e9012414e1d81ea = L.marker(
+                [41.182068, -104.82789],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_533574446fd441f28b2b9af296de8a6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d689e568279b4a48bab550bc2e306d2d = $(`<div id="html_d689e568279b4a48bab550bc2e306d2d" style="width: 100.0%; height: 100.0%;">Maverik 426</div>`)[0];
+            popup_533574446fd441f28b2b9af296de8a6d.setContent(html_d689e568279b4a48bab550bc2e306d2d);
+        
+
+        marker_937a3fd105be45db8e9012414e1d81ea.bindPopup(popup_533574446fd441f28b2b9af296de8a6d)
+        ;
+
+        
+    
+    
+            marker_937a3fd105be45db8e9012414e1d81ea.bindTooltip(
+                `<div>
+                     Maverik 426
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c02f7bd041704a93932568a7b05e9e97 = L.marker(
+                [41.135853000000004, -104.80755],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_7d20ccd0c228485496d17794d1cb8c9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0dcc8ac914942659680bc9d467652de = $(`<div id="html_b0dcc8ac914942659680bc9d467652de" style="width: 100.0%; height: 100.0%;">Golden Dragon 1</div>`)[0];
+            popup_7d20ccd0c228485496d17794d1cb8c9d.setContent(html_b0dcc8ac914942659680bc9d467652de);
+        
+
+        marker_c02f7bd041704a93932568a7b05e9e97.bindPopup(popup_7d20ccd0c228485496d17794d1cb8c9d)
+        ;
+
+        
+    
+    
+            marker_c02f7bd041704a93932568a7b05e9e97.bindTooltip(
+                `<div>
+                     Golden Dragon 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95dcf277d9184a40a98dd718daa1b868 = L.marker(
+                [41.144981, -104.75641],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_9647353817184d7eaf8125ada68b4c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e086defb37b47d6bd79f385d13004b6 = $(`<div id="html_0e086defb37b47d6bd79f385d13004b6" style="width: 100.0%; height: 100.0%;">Loaf N Jug 195</div>`)[0];
+            popup_9647353817184d7eaf8125ada68b4c0c.setContent(html_0e086defb37b47d6bd79f385d13004b6);
+        
+
+        marker_95dcf277d9184a40a98dd718daa1b868.bindPopup(popup_9647353817184d7eaf8125ada68b4c0c)
+        ;
+
+        
+    
+    
+            marker_95dcf277d9184a40a98dd718daa1b868.bindTooltip(
+                `<div>
+                     Loaf N Jug 195
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba410643037f4f8c914b000e8159857e = L.marker(
+                [41.139549, -104.76553],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_dc2939f1c63a4043b75c99939da6050a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca23a074137d4e78ab4cde118269d133 = $(`<div id="html_ca23a074137d4e78ab4cde118269d133" style="width: 100.0%; height: 100.0%;">Big Lots 4441</div>`)[0];
+            popup_dc2939f1c63a4043b75c99939da6050a.setContent(html_ca23a074137d4e78ab4cde118269d133);
+        
+
+        marker_ba410643037f4f8c914b000e8159857e.bindPopup(popup_dc2939f1c63a4043b75c99939da6050a)
+        ;
+
+        
+    
+    
+            marker_ba410643037f4f8c914b000e8159857e.bindTooltip(
+                `<div>
+                     Big Lots 4441
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_752cf8b16f41485f9dbdfa3882fac393 = L.marker(
+                [41.183678, -104.83634],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_6341cb91f86546418bcbd8a3bdc557c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_627b75160e8749799cb1b5a8fd9a8e64 = $(`<div id="html_627b75160e8749799cb1b5a8fd9a8e64" style="width: 100.0%; height: 100.0%;">Loaf N Jug 119</div>`)[0];
+            popup_6341cb91f86546418bcbd8a3bdc557c9.setContent(html_627b75160e8749799cb1b5a8fd9a8e64);
+        
+
+        marker_752cf8b16f41485f9dbdfa3882fac393.bindPopup(popup_6341cb91f86546418bcbd8a3bdc557c9)
+        ;
+
+        
+    
+    
+            marker_752cf8b16f41485f9dbdfa3882fac393.bindTooltip(
+                `<div>
+                     Loaf N Jug 119
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c4bfa72eabb4609bb07644141812831 = L.marker(
+                [41.098766, -104.85299],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_fefd28ad10084f61862d7475ea6b96e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58c5f21215934082bae09f903619abee = $(`<div id="html_58c5f21215934082bae09f903619abee" style="width: 100.0%; height: 100.0%;">Pilot Travel Center 759</div>`)[0];
+            popup_fefd28ad10084f61862d7475ea6b96e7.setContent(html_58c5f21215934082bae09f903619abee);
+        
+
+        marker_5c4bfa72eabb4609bb07644141812831.bindPopup(popup_fefd28ad10084f61862d7475ea6b96e7)
+        ;
+
+        
+    
+    
+            marker_5c4bfa72eabb4609bb07644141812831.bindTooltip(
+                `<div>
+                     Pilot Travel Center 759
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6499db17e3774932a1d183eb69bf82b8 = L.marker(
+                [41.160282, -104.80601],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_fb32607ec6c545169e6c26616cd48073 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23d7904d722547fb9c5ca63be998ef3a = $(`<div id="html_23d7904d722547fb9c5ca63be998ef3a" style="width: 100.0%; height: 100.0%;">Walgreens 09548</div>`)[0];
+            popup_fb32607ec6c545169e6c26616cd48073.setContent(html_23d7904d722547fb9c5ca63be998ef3a);
+        
+
+        marker_6499db17e3774932a1d183eb69bf82b8.bindPopup(popup_fb32607ec6c545169e6c26616cd48073)
+        ;
+
+        
+    
+    
+            marker_6499db17e3774932a1d183eb69bf82b8.bindTooltip(
+                `<div>
+                     Walgreens 09548
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5d9a3c03ec244c3b50388b0ac77d3c3 = L.marker(
+                [41.140198, -104.76443],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_03e0fad30d43479893fa907148418f11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1930e5afc558433c992f983ecac6e3c9 = $(`<div id="html_1930e5afc558433c992f983ecac6e3c9" style="width: 100.0%; height: 100.0%;">Dollar Tree 2697</div>`)[0];
+            popup_03e0fad30d43479893fa907148418f11.setContent(html_1930e5afc558433c992f983ecac6e3c9);
+        
+
+        marker_e5d9a3c03ec244c3b50388b0ac77d3c3.bindPopup(popup_03e0fad30d43479893fa907148418f11)
+        ;
+
+        
+    
+    
+            marker_e5d9a3c03ec244c3b50388b0ac77d3c3.bindTooltip(
+                `<div>
+                     Dollar Tree 2697
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_405ed440f0d944219dcb35b0b6fa47fe = L.marker(
+                [41.160297, -104.80001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_985f32ec523843aa8f1aa5217b6ff691 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17480ed5269349afa935ef8baaea0238 = $(`<div id="html_17480ed5269349afa935ef8baaea0238" style="width: 100.0%; height: 100.0%;">Target Stores T- 0224</div>`)[0];
+            popup_985f32ec523843aa8f1aa5217b6ff691.setContent(html_17480ed5269349afa935ef8baaea0238);
+        
+
+        marker_405ed440f0d944219dcb35b0b6fa47fe.bindPopup(popup_985f32ec523843aa8f1aa5217b6ff691)
+        ;
+
+        
+    
+    
+            marker_405ed440f0d944219dcb35b0b6fa47fe.bindTooltip(
+                `<div>
+                     Target Stores T- 0224
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6a0bb93d8ef4a22bf52f01fcc7dd4c9 = L.marker(
+                [41.145561, -104.76898],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_c5843de5cec5470981d2d6004b0d0097 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49841c25bba14852bcf01894e974c63a = $(`<div id="html_49841c25bba14852bcf01894e974c63a" style="width: 100.0%; height: 100.0%;">Albertsons 65</div>`)[0];
+            popup_c5843de5cec5470981d2d6004b0d0097.setContent(html_49841c25bba14852bcf01894e974c63a);
+        
+
+        marker_b6a0bb93d8ef4a22bf52f01fcc7dd4c9.bindPopup(popup_c5843de5cec5470981d2d6004b0d0097)
+        ;
+
+        
+    
+    
+            marker_b6a0bb93d8ef4a22bf52f01fcc7dd4c9.bindTooltip(
+                `<div>
+                     Albertsons 65
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f1c750a53db414fb0116d8786438c90 = L.marker(
+                [41.172539, -104.82865],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_07628a40975b493f9ef5f735d69b7361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e99c1726478947f3bcacaee39e3686e0 = $(`<div id="html_e99c1726478947f3bcacaee39e3686e0" style="width: 100.0%; height: 100.0%;">Albertsons 66</div>`)[0];
+            popup_07628a40975b493f9ef5f735d69b7361.setContent(html_e99c1726478947f3bcacaee39e3686e0);
+        
+
+        marker_2f1c750a53db414fb0116d8786438c90.bindPopup(popup_07628a40975b493f9ef5f735d69b7361)
+        ;
+
+        
+    
+    
+            marker_2f1c750a53db414fb0116d8786438c90.bindTooltip(
+                `<div>
+                     Albertsons 66
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2f0b5eaedf74f219814b7d4e462b373 = L.marker(
+                [41.138271, -104.7104],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_d62885391e104a709f8c3a91bc86f18d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7561cb26b2f94b7e8ee82317172ac161 = $(`<div id="html_7561cb26b2f94b7e8ee82317172ac161" style="width: 100.0%; height: 100.0%;">Pilot Travel Center 402</div>`)[0];
+            popup_d62885391e104a709f8c3a91bc86f18d.setContent(html_7561cb26b2f94b7e8ee82317172ac161);
+        
+
+        marker_e2f0b5eaedf74f219814b7d4e462b373.bindPopup(popup_d62885391e104a709f8c3a91bc86f18d)
+        ;
+
+        
+    
+    
+            marker_e2f0b5eaedf74f219814b7d4e462b373.bindTooltip(
+                `<div>
+                     Pilot Travel Center 402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_622bdd842ab048f5aff138cab156ebce = L.marker(
+                [41.160247999999996, -104.79274000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_aa60cd7ec40d402581b52a34519380aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56a257ce14cc42c2b528e6970fc459b7 = $(`<div id="html_56a257ce14cc42c2b528e6970fc459b7" style="width: 100.0%; height: 100.0%;">Sam's Club 6430</div>`)[0];
+            popup_aa60cd7ec40d402581b52a34519380aa.setContent(html_56a257ce14cc42c2b528e6970fc459b7);
+        
+
+        marker_622bdd842ab048f5aff138cab156ebce.bindPopup(popup_aa60cd7ec40d402581b52a34519380aa)
+        ;
+
+        
+    
+    
+            marker_622bdd842ab048f5aff138cab156ebce.bindTooltip(
+                `<div>
+                     Sam's Club 6430
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0231098f66d1497bba8e2f0db1fa99b5 = L.marker(
+                [41.105671, -104.80054],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_2fc55c9a60ff4091a33682aa87474171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4360f15c59e940b3be9a4759919db36e = $(`<div id="html_4360f15c59e940b3be9a4759919db36e" style="width: 100.0%; height: 100.0%;">Family Dollar Store 5730</div>`)[0];
+            popup_2fc55c9a60ff4091a33682aa87474171.setContent(html_4360f15c59e940b3be9a4759919db36e);
+        
+
+        marker_0231098f66d1497bba8e2f0db1fa99b5.bindPopup(popup_2fc55c9a60ff4091a33682aa87474171)
+        ;
+
+        
+    
+    
+            marker_0231098f66d1497bba8e2f0db1fa99b5.bindTooltip(
+                `<div>
+                     Family Dollar Store 5730
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4a604d2f4254c9aa0f0b54ea467f794 = L.marker(
+                [41.138542, -104.76796],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_b9955143414a48db95e5e877f925b4da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5da0cec41ec84b6d9d2d47055029461e = $(`<div id="html_5da0cec41ec84b6d9d2d47055029461e" style="width: 100.0%; height: 100.0%;">Family Dollar Store 5901</div>`)[0];
+            popup_b9955143414a48db95e5e877f925b4da.setContent(html_5da0cec41ec84b6d9d2d47055029461e);
+        
+
+        marker_d4a604d2f4254c9aa0f0b54ea467f794.bindPopup(popup_b9955143414a48db95e5e877f925b4da)
+        ;
+
+        
+    
+    
+            marker_d4a604d2f4254c9aa0f0b54ea467f794.bindTooltip(
+                `<div>
+                     Family Dollar Store 5901
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6abd49d4cb441b2a23250e5d04a2a3b = L.marker(
+                [41.102188, -104.80057],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_5ffaa60273574c06a72c86088b78ce1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a2f2c29cd234350aad2a441cd521cd2 = $(`<div id="html_3a2f2c29cd234350aad2a441cd521cd2" style="width: 100.0%; height: 100.0%;">Maverik 557</div>`)[0];
+            popup_5ffaa60273574c06a72c86088b78ce1d.setContent(html_3a2f2c29cd234350aad2a441cd521cd2);
+        
+
+        marker_e6abd49d4cb441b2a23250e5d04a2a3b.bindPopup(popup_5ffaa60273574c06a72c86088b78ce1d)
+        ;
+
+        
+    
+    
+            marker_e6abd49d4cb441b2a23250e5d04a2a3b.bindTooltip(
+                `<div>
+                     Maverik 557
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06bdc2c909a0454d9353f9f0cb5529e1 = L.marker(
+                [41.133915, -104.81208000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_bcb1ba6c229c44d49ec52237b0682b40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58a170f115494d83a8ceb4486aeba1aa = $(`<div id="html_58a170f115494d83a8ceb4486aeba1aa" style="width: 100.0%; height: 100.0%;">Kum & Go 956</div>`)[0];
+            popup_bcb1ba6c229c44d49ec52237b0682b40.setContent(html_58a170f115494d83a8ceb4486aeba1aa);
+        
+
+        marker_06bdc2c909a0454d9353f9f0cb5529e1.bindPopup(popup_bcb1ba6c229c44d49ec52237b0682b40)
+        ;
+
+        
+    
+    
+            marker_06bdc2c909a0454d9353f9f0cb5529e1.bindTooltip(
+                `<div>
+                     Kum & Go 956
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aec43eedc7c2494385d988910b05618f = L.marker(
+                [41.159801, -104.7683],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_bc4b7a83e8c54539b63c6317120c4d9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_515d16b6ed9347428daaff5b4a808d32 = $(`<div id="html_515d16b6ed9347428daaff5b4a808d32" style="width: 100.0%; height: 100.0%;">Kum & Go 1957</div>`)[0];
+            popup_bc4b7a83e8c54539b63c6317120c4d9f.setContent(html_515d16b6ed9347428daaff5b4a808d32);
+        
+
+        marker_aec43eedc7c2494385d988910b05618f.bindPopup(popup_bc4b7a83e8c54539b63c6317120c4d9f)
+        ;
+
+        
+    
+    
+            marker_aec43eedc7c2494385d988910b05618f.bindTooltip(
+                `<div>
+                     Kum & Go 1957
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_140ff8b573094f35a21ada104cf9871c = L.marker(
+                [41.163837, -104.79971],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_5c5ddc21887641eab1ea16e5a475a6a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bcbbb4fbdde4c3dbcc5d10c248051db = $(`<div id="html_3bcbbb4fbdde4c3dbcc5d10c248051db" style="width: 100.0%; height: 100.0%;">Dollar Tree 4035</div>`)[0];
+            popup_5c5ddc21887641eab1ea16e5a475a6a0.setContent(html_3bcbbb4fbdde4c3dbcc5d10c248051db);
+        
+
+        marker_140ff8b573094f35a21ada104cf9871c.bindPopup(popup_5c5ddc21887641eab1ea16e5a475a6a0)
+        ;
+
+        
+    
+    
+            marker_140ff8b573094f35a21ada104cf9871c.bindTooltip(
+                `<div>
+                     Dollar Tree 4035
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c4b44085fd94ac1a4926a5d3cd362cc = L.marker(
+                [41.163837, -104.79971],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_36edad59dd8a432ca4ef5ed2571ea183 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce20ecb97b794663991d293cb56848b9 = $(`<div id="html_ce20ecb97b794663991d293cb56848b9" style="width: 100.0%; height: 100.0%;">Vitamin Cottage Natural Food Markets Inc U038</div>`)[0];
+            popup_36edad59dd8a432ca4ef5ed2571ea183.setContent(html_ce20ecb97b794663991d293cb56848b9);
+        
+
+        marker_5c4b44085fd94ac1a4926a5d3cd362cc.bindPopup(popup_36edad59dd8a432ca4ef5ed2571ea183)
+        ;
+
+        
+    
+    
+            marker_5c4b44085fd94ac1a4926a5d3cd362cc.bindTooltip(
+                `<div>
+                     Vitamin Cottage Natural Food Markets Inc U038
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0928c384c0d4fc397065157e1e7ef7b = L.marker(
+                [41.099323, -104.84846],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_69032cada8ec4003bc5c70dbe90389c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_828c03e9a6c4447db0ec651d0a5eb2ce = $(`<div id="html_828c03e9a6c4447db0ec651d0a5eb2ce" style="width: 100.0%; height: 100.0%;">Loves Travel Stop 220</div>`)[0];
+            popup_69032cada8ec4003bc5c70dbe90389c6.setContent(html_828c03e9a6c4447db0ec651d0a5eb2ce);
+        
+
+        marker_c0928c384c0d4fc397065157e1e7ef7b.bindPopup(popup_69032cada8ec4003bc5c70dbe90389c6)
+        ;
+
+        
+    
+    
+            marker_c0928c384c0d4fc397065157e1e7ef7b.bindTooltip(
+                `<div>
+                     Loves Travel Stop 220
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d708829feee4466f8f9147458a2d67d6 = L.marker(
+                [41.123672, -104.80803],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_bdbc2ea79a3142538c540a1bc1d2c600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10a4a3c84a6a4a51aa37530f15d02c4d = $(`<div id="html_10a4a3c84a6a4a51aa37530f15d02c4d" style="width: 100.0%; height: 100.0%;">Family Dollar Store 10489</div>`)[0];
+            popup_bdbc2ea79a3142538c540a1bc1d2c600.setContent(html_10a4a3c84a6a4a51aa37530f15d02c4d);
+        
+
+        marker_d708829feee4466f8f9147458a2d67d6.bindPopup(popup_bdbc2ea79a3142538c540a1bc1d2c600)
+        ;
+
+        
+    
+    
+            marker_d708829feee4466f8f9147458a2d67d6.bindTooltip(
+                `<div>
+                     Family Dollar Store 10489
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65182ff1b9ae49a69bdc5ef8bfe2fc44 = L.marker(
+                [41.121967, -104.7601],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_78835c77f60e412287b22bb254b31927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e87e4fafd7fb4d53af64243d1b04d1db = $(`<div id="html_e87e4fafd7fb4d53af64243d1b04d1db" style="width: 100.0%; height: 100.0%;">Walmart Supercenter 4653</div>`)[0];
+            popup_78835c77f60e412287b22bb254b31927.setContent(html_e87e4fafd7fb4d53af64243d1b04d1db);
+        
+
+        marker_65182ff1b9ae49a69bdc5ef8bfe2fc44.bindPopup(popup_78835c77f60e412287b22bb254b31927)
+        ;
+
+        
+    
+    
+            marker_65182ff1b9ae49a69bdc5ef8bfe2fc44.bindTooltip(
+                `<div>
+                     Walmart Supercenter 4653
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73fd0747d4e14cecbfe055fca03573e0 = L.marker(
+                [41.138416, -104.77901],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_503cb41a7ba042869b9aa2217601033d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45cf7bc53b9649f1a0d4c2d06223edd5 = $(`<div id="html_45cf7bc53b9649f1a0d4c2d06223edd5" style="width: 100.0%; height: 100.0%;">Big D Oil 28</div>`)[0];
+            popup_503cb41a7ba042869b9aa2217601033d.setContent(html_45cf7bc53b9649f1a0d4c2d06223edd5);
+        
+
+        marker_73fd0747d4e14cecbfe055fca03573e0.bindPopup(popup_503cb41a7ba042869b9aa2217601033d)
+        ;
+
+        
+    
+    
+            marker_73fd0747d4e14cecbfe055fca03573e0.bindTooltip(
+                `<div>
+                     Big D Oil 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5800f90189846388b94ff3c25aec00e = L.marker(
+                [41.160236, -104.79127],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_0d05d5c10a0e499fb3cafab704e0071a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe16364c5a444a6a854a83a6d239200 = $(`<div id="html_7fe16364c5a444a6a854a83a6d239200" style="width: 100.0%; height: 100.0%;">Walmart 1315</div>`)[0];
+            popup_0d05d5c10a0e499fb3cafab704e0071a.setContent(html_7fe16364c5a444a6a854a83a6d239200);
+        
+
+        marker_a5800f90189846388b94ff3c25aec00e.bindPopup(popup_0d05d5c10a0e499fb3cafab704e0071a)
+        ;
+
+        
+    
+    
+            marker_a5800f90189846388b94ff3c25aec00e.bindTooltip(
+                `<div>
+                     Walmart 1315
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af6e27ec85874777bcd9386f9528cb38 = L.marker(
+                [41.135414000000004, -104.81409000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_ca73af7073d74416be97724a764b5be3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4a9d346895e4c82b0c3b138956694a6 = $(`<div id="html_b4a9d346895e4c82b0c3b138956694a6" style="width: 100.0%; height: 100.0%;">Tortilleria La Paz Llc N/A</div>`)[0];
+            popup_ca73af7073d74416be97724a764b5be3.setContent(html_b4a9d346895e4c82b0c3b138956694a6);
+        
+
+        marker_af6e27ec85874777bcd9386f9528cb38.bindPopup(popup_ca73af7073d74416be97724a764b5be3)
+        ;
+
+        
+    
+    
+            marker_af6e27ec85874777bcd9386f9528cb38.bindTooltip(
+                `<div>
+                     Tortilleria La Paz Llc N/A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc5dfd4833444ffb89c3cdfbda78e139 = L.marker(
+                [41.138489, -104.78999],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_63c4d3e21feb48518df2d889e4c7c6a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf073a41f0914a1194a8170e431b769f = $(`<div id="html_bf073a41f0914a1194a8170e431b769f" style="width: 100.0%; height: 100.0%;">Walgreens 05838</div>`)[0];
+            popup_63c4d3e21feb48518df2d889e4c7c6a0.setContent(html_bf073a41f0914a1194a8170e431b769f);
+        
+
+        marker_cc5dfd4833444ffb89c3cdfbda78e139.bindPopup(popup_63c4d3e21feb48518df2d889e4c7c6a0)
+        ;
+
+        
+    
+    
+            marker_cc5dfd4833444ffb89c3cdfbda78e139.bindTooltip(
+                `<div>
+                     Walgreens 05838
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11b2cc55f2e745b6b9bfb8e021524055 = L.marker(
+                [41.119572, -104.83187],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_da0fde713b274a658f07c0f498c2826a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_431cd5ad80694414807d0226be3f3939 = $(`<div id="html_431cd5ad80694414807d0226be3f3939" style="width: 100.0%; height: 100.0%;">Schwans Home Service Cheyenne Depot 100760</div>`)[0];
+            popup_da0fde713b274a658f07c0f498c2826a.setContent(html_431cd5ad80694414807d0226be3f3939);
+        
+
+        marker_11b2cc55f2e745b6b9bfb8e021524055.bindPopup(popup_da0fde713b274a658f07c0f498c2826a)
+        ;
+
+        
+    
+    
+            marker_11b2cc55f2e745b6b9bfb8e021524055.bindTooltip(
+                `<div>
+                     Schwans Home Service Cheyenne Depot 100760
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fa97e91bba24e27879249c6d48bd755 = L.marker(
+                [41.143799, -104.83108],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_b63894581e4549a79cfe1c55f63c0458 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab1d09061a2e42ab95bfcbc2c93a2693 = $(`<div id="html_ab1d09061a2e42ab95bfcbc2c93a2693" style="width: 100.0%; height: 100.0%;">Loaf N Jug 115</div>`)[0];
+            popup_b63894581e4549a79cfe1c55f63c0458.setContent(html_ab1d09061a2e42ab95bfcbc2c93a2693);
+        
+
+        marker_0fa97e91bba24e27879249c6d48bd755.bindPopup(popup_b63894581e4549a79cfe1c55f63c0458)
+        ;
+
+        
+    
+    
+            marker_0fa97e91bba24e27879249c6d48bd755.bindTooltip(
+                `<div>
+                     Loaf N Jug 115
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8ec042a23ef4b129a85af155cac1d51 = L.marker(
+                [41.136497, -104.76186],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_75f86e5ed7a44c858a55cf3b6ed36695 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a835edc57f89459aae3e0be8a0da6f48 = $(`<div id="html_a835edc57f89459aae3e0be8a0da6f48" style="width: 100.0%; height: 100.0%;">Loaf N Jug 192</div>`)[0];
+            popup_75f86e5ed7a44c858a55cf3b6ed36695.setContent(html_a835edc57f89459aae3e0be8a0da6f48);
+        
+
+        marker_a8ec042a23ef4b129a85af155cac1d51.bindPopup(popup_75f86e5ed7a44c858a55cf3b6ed36695)
+        ;
+
+        
+    
+    
+            marker_a8ec042a23ef4b129a85af155cac1d51.bindTooltip(
+                `<div>
+                     Loaf N Jug 192
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_895b883c39cb49a09279938d4cc78eac = L.marker(
+                [41.160187, -104.78268],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_80bbb4fdbc7d4ca4b983fc733f201d54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec2e5291f0584be5b236ae7ec64ecaf0 = $(`<div id="html_ec2e5291f0584be5b236ae7ec64ecaf0" style="width: 100.0%; height: 100.0%;">Loaf N Jug 193</div>`)[0];
+            popup_80bbb4fdbc7d4ca4b983fc733f201d54.setContent(html_ec2e5291f0584be5b236ae7ec64ecaf0);
+        
+
+        marker_895b883c39cb49a09279938d4cc78eac.bindPopup(popup_80bbb4fdbc7d4ca4b983fc733f201d54)
+        ;
+
+        
+    
+    
+            marker_895b883c39cb49a09279938d4cc78eac.bindTooltip(
+                `<div>
+                     Loaf N Jug 193
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_076303efd8794a52b9b19750cc1c0b17 = L.marker(
+                [41.145, -104.85986000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_bb67a73e2dbf4da3a6cc03166d6e8177 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08e837cf588f4c55861997c350df693c = $(`<div id="html_08e837cf588f4c55861997c350df693c" style="width: 100.0%; height: 100.0%;">FE Warren AFB Commissary 907</div>`)[0];
+            popup_bb67a73e2dbf4da3a6cc03166d6e8177.setContent(html_08e837cf588f4c55861997c350df693c);
+        
+
+        marker_076303efd8794a52b9b19750cc1c0b17.bindPopup(popup_bb67a73e2dbf4da3a6cc03166d6e8177)
+        ;
+
+        
+    
+    
+            marker_076303efd8794a52b9b19750cc1c0b17.bindTooltip(
+                `<div>
+                     FE Warren AFB Commissary 907
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2696612447994f6e81cf2860a83f1d34 = L.marker(
+                [41.111004, -104.80086999999999],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_88651b19d07e44208c1823a07a6f6ecb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa0f7564576742b39368f2ab3f7450fb = $(`<div id="html_aa0f7564576742b39368f2ab3f7450fb" style="width: 100.0%; height: 100.0%;">SAFEWAY  2667</div>`)[0];
+            popup_88651b19d07e44208c1823a07a6f6ecb.setContent(html_aa0f7564576742b39368f2ab3f7450fb);
+        
+
+        marker_2696612447994f6e81cf2860a83f1d34.bindPopup(popup_88651b19d07e44208c1823a07a6f6ecb)
+        ;
+
+        
+    
+    
+            marker_2696612447994f6e81cf2860a83f1d34.bindTooltip(
+                `<div>
+                     SAFEWAY  2667
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39ad18e0903744d4bde5ee366f567e42 = L.marker(
+                [41.171059, -104.82858],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_352ff7fde2824451ad6587ead2b78c36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54e337b885104b1bb48971a5ac8bc684 = $(`<div id="html_54e337b885104b1bb48971a5ac8bc684" style="width: 100.0%; height: 100.0%;">Loaf N Jug 116</div>`)[0];
+            popup_352ff7fde2824451ad6587ead2b78c36.setContent(html_54e337b885104b1bb48971a5ac8bc684);
+        
+
+        marker_39ad18e0903744d4bde5ee366f567e42.bindPopup(popup_352ff7fde2824451ad6587ead2b78c36)
+        ;
+
+        
+    
+    
+            marker_39ad18e0903744d4bde5ee366f567e42.bindTooltip(
+                `<div>
+                     Loaf N Jug 116
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28168288ab0a483db5b2b03317aa7386 = L.marker(
+                [41.138489, -104.79417],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_f315a36bb15b4bccbb96e8bda9facd49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c89219e91154c9699c087fd703b27a0 = $(`<div id="html_3c89219e91154c9699c087fd703b27a0" style="width: 100.0%; height: 100.0%;">Loaf N Jug 118</div>`)[0];
+            popup_f315a36bb15b4bccbb96e8bda9facd49.setContent(html_3c89219e91154c9699c087fd703b27a0);
+        
+
+        marker_28168288ab0a483db5b2b03317aa7386.bindPopup(popup_f315a36bb15b4bccbb96e8bda9facd49)
+        ;
+
+        
+    
+    
+            marker_28168288ab0a483db5b2b03317aa7386.bindTooltip(
+                `<div>
+                     Loaf N Jug 118
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a823d70782524189a2ce866d876d49a8 = L.marker(
+                [41.102631, -104.80057],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_af39fe66a9b34ebdba4018a9324996c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d12c556076c4339b146220414154a43 = $(`<div id="html_3d12c556076c4339b146220414154a43" style="width: 100.0%; height: 100.0%;">Loaf N Jug 194</div>`)[0];
+            popup_af39fe66a9b34ebdba4018a9324996c1.setContent(html_3d12c556076c4339b146220414154a43);
+        
+
+        marker_a823d70782524189a2ce866d876d49a8.bindPopup(popup_af39fe66a9b34ebdba4018a9324996c1)
+        ;
+
+        
+    
+    
+            marker_a823d70782524189a2ce866d876d49a8.bindTooltip(
+                `<div>
+                     Loaf N Jug 194
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acc9a8146bcd49099af0a79417a647f0 = L.marker(
+                [41.145573, -104.77004000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_cda4e8ba05184046b13d5345652e0ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cae7dbcaefc4ba8b6229d7107c0bcf1 = $(`<div id="html_7cae7dbcaefc4ba8b6229d7107c0bcf1" style="width: 100.0%; height: 100.0%;">Papa Murphy's Pizza WY006</div>`)[0];
+            popup_cda4e8ba05184046b13d5345652e0ea7.setContent(html_7cae7dbcaefc4ba8b6229d7107c0bcf1);
+        
+
+        marker_acc9a8146bcd49099af0a79417a647f0.bindPopup(popup_cda4e8ba05184046b13d5345652e0ea7)
+        ;
+
+        
+    
+    
+            marker_acc9a8146bcd49099af0a79417a647f0.bindTooltip(
+                `<div>
+                     Papa Murphy's Pizza WY006
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfe116070cbf4980bf8c2a7d070d3f38 = L.marker(
+                [41.138557, -104.76954],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_ee3bc9f448fa490c8960722c859fb4d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_253825c426514b5eb5f76a6346c0edb8 = $(`<div id="html_253825c426514b5eb5f76a6346c0edb8" style="width: 100.0%; height: 100.0%;">Kum & Go 952</div>`)[0];
+            popup_ee3bc9f448fa490c8960722c859fb4d2.setContent(html_253825c426514b5eb5f76a6346c0edb8);
+        
+
+        marker_dfe116070cbf4980bf8c2a7d070d3f38.bindPopup(popup_ee3bc9f448fa490c8960722c859fb4d2)
+        ;
+
+        
+    
+    
+            marker_dfe116070cbf4980bf8c2a7d070d3f38.bindTooltip(
+                `<div>
+                     Kum & Go 952
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_332288456ae44846954b1f1805c42c9a = L.marker(
+                [41.138596, -104.76756],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_95aee917554a4f249960e7f78f41fea4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd8cd148aee9411bac48c818ad0b8ce9 = $(`<div id="html_bd8cd148aee9411bac48c818ad0b8ce9" style="width: 100.0%; height: 100.0%;">Big Lots 4678</div>`)[0];
+            popup_95aee917554a4f249960e7f78f41fea4.setContent(html_bd8cd148aee9411bac48c818ad0b8ce9);
+        
+
+        marker_332288456ae44846954b1f1805c42c9a.bindPopup(popup_95aee917554a4f249960e7f78f41fea4)
+        ;
+
+        
+    
+    
+            marker_332288456ae44846954b1f1805c42c9a.bindTooltip(
+                `<div>
+                     Big Lots 4678
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50ec3e5fca7542d0ac00515402462945 = L.marker(
+                [41.129917, -104.82294],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_5be799ac6f85486b81b5b0a9c860d007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a365057f5e644ab3883fc44ff9674959 = $(`<div id="html_a365057f5e644ab3883fc44ff9674959" style="width: 100.0%; height: 100.0%;">Big D Oil 32</div>`)[0];
+            popup_5be799ac6f85486b81b5b0a9c860d007.setContent(html_a365057f5e644ab3883fc44ff9674959);
+        
+
+        marker_50ec3e5fca7542d0ac00515402462945.bindPopup(popup_5be799ac6f85486b81b5b0a9c860d007)
+        ;
+
+        
+    
+    
+            marker_50ec3e5fca7542d0ac00515402462945.bindTooltip(
+                `<div>
+                     Big D Oil 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13f30fe063b649c6b9718dc62a449557 = L.marker(
+                [41.122757, -104.84174],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_b24a1ad2e69a40dc9f422c5dd2145f19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b3dd6ea80354390ad5e30deb6df7acc = $(`<div id="html_4b3dd6ea80354390ad5e30deb6df7acc" style="width: 100.0%; height: 100.0%;">Big D Oil 30</div>`)[0];
+            popup_b24a1ad2e69a40dc9f422c5dd2145f19.setContent(html_4b3dd6ea80354390ad5e30deb6df7acc);
+        
+
+        marker_13f30fe063b649c6b9718dc62a449557.bindPopup(popup_b24a1ad2e69a40dc9f422c5dd2145f19)
+        ;
+
+        
+    
+    
+            marker_13f30fe063b649c6b9718dc62a449557.bindTooltip(
+                `<div>
+                     Big D Oil 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_728886b475da42eda0063a10883f4eb2 = L.marker(
+                [41.144989, -104.82679],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_a8df753acf314c9daa1ded33b940f3b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c32981e4bd024665bebec314006fa798 = $(`<div id="html_c32981e4bd024665bebec314006fa798" style="width: 100.0%; height: 100.0%;">Maverik 528</div>`)[0];
+            popup_a8df753acf314c9daa1ded33b940f3b3.setContent(html_c32981e4bd024665bebec314006fa798);
+        
+
+        marker_728886b475da42eda0063a10883f4eb2.bindPopup(popup_a8df753acf314c9daa1ded33b940f3b3)
+        ;
+
+        
+    
+    
+            marker_728886b475da42eda0063a10883f4eb2.bindTooltip(
+                `<div>
+                     Maverik 528
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_704b06ba6b2c4478bdd1a741e94afadd = L.marker(
+                [41.167, -104.83698000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_21983681eaf44a35aa690a714cbecc24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43d1559246d74f26911346f8f15f99d7 = $(`<div id="html_43d1559246d74f26911346f8f15f99d7" style="width: 100.0%; height: 100.0%;">Big D Oil 31</div>`)[0];
+            popup_21983681eaf44a35aa690a714cbecc24.setContent(html_43d1559246d74f26911346f8f15f99d7);
+        
+
+        marker_704b06ba6b2c4478bdd1a741e94afadd.bindPopup(popup_21983681eaf44a35aa690a714cbecc24)
+        ;
+
+        
+    
+    
+            marker_704b06ba6b2c4478bdd1a741e94afadd.bindTooltip(
+                `<div>
+                     Big D Oil 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c798c5bcef4b1cbbf158d29c99bc6a = L.marker(
+                [41.103085, -104.80048000000001],
+                {}
+            ).addTo(map_253e137fb615416aac20c924f47ad446);
+        
+    
+        var popup_7fe7c3535c6e46e2855a100b9e20a6bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a45dff60c3d4b4aaf89bae766e4b17e = $(`<div id="html_1a45dff60c3d4b4aaf89bae766e4b17e" style="width: 100.0%; height: 100.0%;">Dollar General 21033</div>`)[0];
+            popup_7fe7c3535c6e46e2855a100b9e20a6bc.setContent(html_1a45dff60c3d4b4aaf89bae766e4b17e);
+        
+
+        marker_25c798c5bcef4b1cbbf158d29c99bc6a.bindPopup(popup_7fe7c3535c6e46e2855a100b9e20a6bc)
+        ;
+
+        
+    
+    
+            marker_25c798c5bcef4b1cbbf158d29c99bc6a.bindTooltip(
+                `<div>
+                     Dollar General 21033
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
